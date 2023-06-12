@@ -1,0 +1,108 @@
+html
+{
+    padding: 1% 2% 0% 2%;
+}
+body
+{
+    background: whitesmoke;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-family: Arial, sans-serif ;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(-45deg, blue,rgb(7, 187, 237),rgb(38, 93, 223));
+       background-size: 400% 400%;
+       animation: gradient 15s ease infinite;
+       height: 100vh;
+   
+   }
+
+   @keyframes gradient {
+       0% {
+           background-position: 0% 50%;
+       }
+
+       50% { 
+           background-position: 100% 50%;
+       }
+
+       100% { 
+           background-position: 0% 50%;
+       }
+   }
+
+a
+{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.theTitle
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0% 0% 10% 0%;
+}
+form, #signUp
+{
+    background: rgb(239, 235, 235);
+    text-align: left;
+    padding: 5%;
+    border-radius: 35px;
+}
+input
+{
+    margin: 2% 0% 4% 0%;
+    border: 1px outset whitesmoke;
+}
+input
+{
+    border-radius: 5px;
+    padding: 2%;
+    width: 200px;
+    border: 1px outset rgb(19, 128, 196);
+    color: whitesmoke;
+    background: rgb(19, 128, 196);
+
+}
+button
+{
+    border-radius: 5px;
+    padding: 3%;
+    width: 211px;
+    border: 1px outset rgb(19, 128, 196);
+    color: whitesmoke;
+    background: rgb(19, 128, 196);
+}
+button:hover
+{
+    border: 2px outset rgb(19, 128, 196);
+}
+#signUp p
+{
+    font-size: small;
+}
+
+#error, #passwordConfirm, #loginError
+{
+    color: red;
+    font-size: smaller;
+}
+
+footer
+{
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+}
